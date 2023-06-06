@@ -1,0 +1,27 @@
+.headerWrapper {
+    width: 80%;
+    border: 1px solid black;
+    background-color: #aaaaaa;
+    margin: 0 auto;
+    height: 10vh;
+}
+
+.headerContainer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.headerInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headerInner>h1 {
+    color: white;
+
+}
