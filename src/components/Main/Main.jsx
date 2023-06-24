@@ -5,9 +5,13 @@ import { addList1AC, addList2AC, filList1AC, filList2AC } from "../../redux-stor
 import { useState } from "react";
 
 const Main = () => {
+
+
     const dispatch = useDispatch()
     const { list1 } = useSelector(state => state.prosReducers);
     const { list2 } = useSelector((state) => state.consReducers);
+    const x = useSelector(state => state.prosReducers)
+    console.log(x);
 
     const [edit1, setEdit1] = useState("");
     const [newValue1, setNewValue1] = useState('')
